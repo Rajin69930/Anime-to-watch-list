@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Anime to watch</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <p style="text-align: center;" id="welcome"></p>
+      <p>
+        <label for="new-task">Add Anime</label><input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>Pending anime to watch</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Shigatsu wa kimi no uso</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li class="editMode"><input type="checkbox"><label>Nisekoi</label><input type="text" value="Nisekoi"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        
+      </ul>
+      
+      <h3>Completed Anime</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Golden time</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+  </body>
+</html>
